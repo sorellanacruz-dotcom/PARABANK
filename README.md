@@ -19,7 +19,7 @@ Estas dependencias están listadas en `package.json` y se instalan con `npm inst
 2. Instalar dependencias de Node:
 =======
 # ParaBank — Proyecto Full Stack
-
+# 12/02/2026 
 Proyecto completo con pruebas automatizadas (Playwright), frontend (React) y backend (Node.js) para el sitio demo ParaBank (https://parabank.parasoft.com/parabank/index.htm).
 
 ## 📋 Descripción
