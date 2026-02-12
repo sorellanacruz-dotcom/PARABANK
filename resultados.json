@@ -1,0 +1,280 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\sandr\\OneDrive\\Documentos\\ParaBank\\playwright.config.js",
+    "rootDir": "C:/Users/sandr/OneDrive/Documentos/ParaBank/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/sandr/OneDrive/Documentos/ParaBank/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/sandr/OneDrive/Documentos/ParaBank/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "mis-reportes"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "resultados.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "transfer.data.spec.js",
+      "file": "transfer.data.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "transferencia con usuario reg_user_1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "interrupted",
+                  "duration": 24596,
+                  "error": {
+                    "message": "Error: page.fill: Test ended.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"username\"]')\u001b[22m\n",
+                    "stack": "Error: page.fill: Test ended.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"username\"]')\u001b[22m\n\n    at C:\\Users\\sandr\\OneDrive\\Documentos\\ParaBank\\tests\\transfer.data.spec.js:13:16",
+                    "location": {
+                      "file": "C:\\Users\\sandr\\OneDrive\\Documentos\\ParaBank\\tests\\transfer.data.spec.js",
+                      "column": 16,
+                      "line": 13
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m     \u001b[90m// Login con credenciales del usuario\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m u\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m u\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m     \n \u001b[90m 16 |\u001b[39m     \u001b[90m// Click en el botón de login\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\sandr\\OneDrive\\Documentos\\ParaBank\\tests\\transfer.data.spec.js",
+                        "column": 16,
+                        "line": 13
+                      },
+                      "message": "Error: page.fill: Test ended.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"username\"]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 11 |\u001b[39m\n \u001b[90m 12 |\u001b[39m     \u001b[90m// Login con credenciales del usuario\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"username\"]'\u001b[39m\u001b[33m,\u001b[39m u\u001b[33m.\u001b[39musername)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"password\"]'\u001b[39m\u001b[33m,\u001b[39m u\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m     \n \u001b[90m 16 |\u001b[39m     \u001b[90m// Click en el botón de login\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\sandr\\OneDrive\\Documentos\\ParaBank\\tests\\transfer.data.spec.js:13:16\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-12T04:06:30.431Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "C:\\Users\\sandr\\OneDrive\\Documentos\\ParaBank\\tests\\transfer.data.spec.js",
+                    "column": 16,
+                    "line": 13
+                  }
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-76042e9b6136c6296f53",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "transferencia con usuario reg_user_2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-06a401444752683ee811",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "transferencia con usuario reg_user_3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-771021e77da1858f99ae",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "transferencia con usuario reg_user_4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-e31439041a35d3442d8c",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "transferencia con usuario reg_user_5",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-62a2b995f812a334fe9d",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "transferencia con usuario reg_user_6",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-17033e14da32b213a4fc",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "transferencia con usuario reg_user_7",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-a4e52023d9391d3698be",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "transferencia con usuario reg_user_8",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c01bc5b5743e4efea4cc-a76b3e10370e3e09c063",
+          "file": "transfer.data.spec.js",
+          "line": 7,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-12T04:06:28.420Z",
+    "duration": 27091.694,
+    "expected": 0,
+    "skipped": 8,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

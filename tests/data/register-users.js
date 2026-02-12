@@ -1,0 +1,122 @@
+module.exports = [
+  {
+    firstName: 'Ana',
+    lastName: 'González',
+    address: 'Calle Falsa 123',
+    city: 'Madrid',
+    state: 'Madrid',
+    zipCode: '28001',
+    phone: '600111222',
+    ssn: '111223333',
+    username: 'reg_user_1',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Luis',
+    lastName: 'Martínez',
+    address: 'Avenida Siempre Viva 742',
+    city: 'Barcelona',
+    state: 'Barcelona',
+    zipCode: '08001',
+    phone: '600222333',
+    ssn: '222334444',
+    username: 'reg_user_2',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'María',
+    lastName: 'Pérez',
+    address: 'Paseo del Prado 5',
+    city: 'Valencia',
+    state: 'Valencia',
+    zipCode: '46001',
+    phone: '600333444',
+    ssn: '333445555',
+    username: 'reg_user_3',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Jorge',
+    lastName: 'Santos',
+    address: 'Calle Real 10',
+    city: 'Sevilla',
+    state: 'Sevilla',
+    zipCode: '41001',
+    phone: '600444555',
+    ssn: '444556666',
+    username: 'reg_user_4',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Isabel',
+    lastName: 'Ruiz',
+    address: 'Ronda de la Universidad 2',
+    city: 'Zaragoza',
+    state: 'Zaragoza',
+    zipCode: '50001',
+    phone: '600555666',
+    ssn: '555667777',
+    username: 'reg_user_5',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Pedro',
+    lastName: 'López',
+    address: 'Plaza Mayor 1',
+    city: 'Bilbao',
+    state: 'Vizcaya',
+    zipCode: '48001',
+    phone: '600666777',
+    ssn: '666778888',
+    username: 'reg_user_6',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Laura',
+    lastName: 'Ramírez',
+    address: 'Calle del Mar 8',
+    city: 'Málaga',
+    state: 'Málaga',
+    zipCode: '29001',
+    phone: '600777888',
+    ssn: '777889999',
+    username: 'reg_user_7',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Carlos',
+    lastName: 'Vega',
+    address: 'Camino Real 20',
+    city: 'Córdoba',
+    state: 'Córdoba',
+    zipCode: '14001',
+    phone: '600888999',
+    ssn: '888990000',
+    username: 'reg_user_8',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Sofía',
+    lastName: 'Núñez',
+    address: 'Calle Nueva 33',
+    city: 'Valladolid',
+    state: 'Valladolid',
+    zipCode: '47001',
+    phone: '600999000',
+    ssn: '999001111',
+    username: 'reg_user_9',
+    password: 'Password123!'
+  },
+  {
+    firstName: 'Miguel',
+    lastName: 'Ortiz',
+    address: 'Av. de la Constitución 12',
+    city: 'Santander',
+    state: 'Cantabria',
+    zipCode: '39001',
+    phone: '600000111',
+    ssn: '000112222',
+    username: 'reg_user_10',
+    password: 'Password123!'
+  }
+];
